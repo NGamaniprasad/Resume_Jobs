@@ -1,0 +1,63 @@
+STEPS TO DO JSP,JDBC,SERVLETS PROJECT BOOKSTOREAPP
+1)Setup Database:
+create database myjlcbsDB; 
+use myjlcbsDB; 
+create table myusers( 
+userId int auto_increment primary key, 
+fullName char(15), 
+email char(15), 
+phone char(10), 
+dob char(12), 
+gender char(10), 
+username char(10), 
+password char(10), 
+status char(10) 
+); 
+2) Open the Eclipse and Create the Dynamic Web Project called JLCBSApp 
+3) Copy the following 3 jars into WEB-INF/lib folder. 
+a) mysql-connector-java-5.1.45.jar 
+b) commons-dbcp-1.4.jar 
+c) commons-pool-1.5.4.jar 
+4) Create the package called com.jlcindia.bookstore.util 
+5) Write DataSourceUtil.java under com.jlcindia.bookstore.util 
+6) Write JdbcTemplate.java  under com.jlcindia.bookstore.util 
+7) Write RowMapper.java under com.jlcindia.bookstore.util 
+8) Create the package called com.jlcindia.bookstore.to 
+9) Write UserTO.java under com.jlcindia.bookstore.to 
+2                                       
+JSP Study Guide 
+Java Learning Center                                   
+10) Create the package called com.jlcindia.bookstore.dao 
+11) Write UserRowMapper.java under com.jlcindia.bookstore.dao 
+12) Write UserDAO.java under com.jlcindia.bookstore.dao 
+13) Write UserDAOImpl.java under com.jlcindia.bookstore.dao 
+14) Write DAOFactory.java under com.jlcindia.bookstore.dao 
+15) Create the package called com.jlcindia.bookstore.service 
+16) Write UserService.java under com.jlcindia.bookstore.service 
+17) Write UserServiceImpl.java under com.jlcindia.bookstore.service 
+18) Write login.jsp 
+19) Write register.jsp 
+20) Write home.jsp 
+21) Create the package called com.jlcindia.bookstore.servlets 
+22) Write JLCBaseServlet.java under com.jlcindia.bookstore.servlets 
+23) Write LoginServlet.java under com.jlcindia.bookstore.servlets 
+24) Write RegisterServlet.java under com.jlcindia.bookstore.servlets 
+25) Run the App and Test the Registration and Logic Functionality. 
+26) Write forgotpw.jsp 
+27) Write passwordInfo.jsp 
+28) Write ForgotPWServlet.java under com.jlcindia.bookstore.servlets 
+3                                       
+JSP Study Guide 
+Java Learning Center                                   
+29) Run the App and Test the Forgot Password Functionality. 
+30) Write changepw.jsp 
+31) Write changepwStatus.jsp 
+32) Write ChangePWServlet.java under com.jlcindia.bookstore.servlets 
+33) Run the App and Test the Change Password Functionality. 
+34) Write updateProfile.jsp 
+35) Write updateProfileStatus.jsp 
+36) Write UpdateProfileServlet.java under com.jlcindia.bookstore.servlets 
+37) Run the App and Test the Update Profile Functionality. 
+38) Write LogoutServlet.java under com.jlcindia.bookstore.servlets 
+39) Run the App and Test the Logout Functionality. 
+40) You have done It . Great - Good Luck !!!
